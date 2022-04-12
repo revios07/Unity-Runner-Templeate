@@ -12,7 +12,7 @@ public class InputHandler : MonoBehaviour
 
     private void Start()
     {
-        _xInput = 0f;
+        XInput = 0f;
     }
 
     private void Update()
