@@ -32,6 +32,6 @@ public class PlayerController : MonoBehaviour
         _forwardMovementParent.Translate(_forwardMovementParent.forward * _gameManager.playerMovementVariables.forwardSpeed * Time.fixedDeltaTime);
 
         //Horizontal Movement
-        _horizontalMovementChild.localPosition += (Vector3.right * _inputHandler._xInput * Time.fixedDeltaTime);
+        _horizontalMovementChild.localPosition += (Vector3.right * _inputHandler.XInput * Time.fixedDeltaTime);
     }
 }
