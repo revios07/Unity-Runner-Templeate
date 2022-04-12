@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class InputHandler : MonoBehaviour
 {
-    public float _xInput { get; private set; }
+    public float XInput { get; private set; }
 
     [SerializeField]
     [Range(0f,10f)]
